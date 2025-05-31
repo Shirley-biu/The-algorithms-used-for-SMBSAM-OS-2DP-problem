@@ -27,6 +27,8 @@ This file is used to implement the CBD algorithm with the MIS-based dynamic two-
 ## ts_blf.py
 This file is used to implement the Tabu Search algorithm, which mainly includes:
 
+Initial solution: The initial solution based on rules.
+
 Tabu list management: Record the recently visited solutions to avoid re-searching them.
 
 Neighborhood search: Search for better solutions within the neighborhood.
